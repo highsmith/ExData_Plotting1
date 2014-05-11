@@ -43,7 +43,7 @@
         )
         
         ##plot4
-        plot(subpowerD$datetime, subpowerD$Global_active_power
+        plot(subpowerD$datetime, subpowerD$Global_reactive_power
              , ylab="Global_active_power"
              , xlab="datetime"
              , type="l")
